@@ -6,23 +6,27 @@
     <meta name = "author" content="小城">
     <meta name="keywords" content="小城 HTML練習">
     <meta name="description" content="練習HTM語法">
-    <title>Document</title>
+    <title>小成HTML練習</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<header>
     <!-- 以下為標題範例 -->
     <h1>標題一</h1>
-    <h2>標題二</h2>
-    <h3>標題三</h3>
-    <h4>標題四</h4>
+    <h2 class="title">標題二</h2>
+    <h3 class="title">標題三</h3>
+    <h4 id="title1">標題四</h4>
     <h5>標題五</h5>
     <h6>標題六</h6>
-    <p>這是一個段落</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, adipisci quam quod reprehenderit non saepe repellendus. Nulla sequi odit enim quibusdam praesentium error dignissimos aliquam. Numquam consectetur dolores ad dignissimos.</p>
     <strong>我是粗體字</strong>
     <em>我是斜體字</em>
     <hr>水平線
     <b>我是粗體字2</b>
     <br><!-- 換行 -->
     <i>我是斜體字2</i>
+</header>
+<nav>
     <ul>
         <li>FACEBOOK</li>
         <li>IG</li>
@@ -33,6 +37,8 @@
         <li>雞塊</li>
         <li>雞腿</li>
     </ol>
+</nav>
+<main>
     <hr>
     <a href="http://www.google.com">google</a>
     <a href="/page2.html">第二頁</a>
@@ -67,10 +73,11 @@
     <div>jack</div>
     <span>hello</span>
     <span>joe</span>
-
-    <input type="text" placeholder="請入文字">
-    <input type="password" placeholder="請入密碼">
-    <input type="email" placeholder="請入電郵">
+</main>
+<footer>
+    <input type="text" placeholder="請入文字" >
+    <input type="password" placeholder="請入密碼" required>
+    <input type="email" placeholder="請入電郵" required>
     <input type="checkbox">
     <input type="file">
     <input type="date">
@@ -79,5 +86,6 @@
     <button>送出</button>
     <textarea name="content" id="content" cols="30" rows="10">預設文字</textarea>
     <blockquote cite="https://kknews.cc/zh-tw/entertainment/xe9ra9q.html#google_vignette">黑夜無論怎樣悠長，白晝總會到來</blockquote>
+</footer>
 </body>
 </html>
